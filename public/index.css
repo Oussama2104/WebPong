@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+
+}
+
+.ranking, .login{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.ranking {
+    text-align: left;
+}
+
+.login{
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#pingPongCanvas{
+    display: none;
+    margin: auto;
+    background-color: #000000;
+}
+
+.game-container {
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+#gameScreen{
+    display: block;
+    margin: auto;
+    background-color: #000000;
+}

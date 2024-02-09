@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #222;
+  color: #fff;
+}
+
+.register-container {
+  width: 300px;
+  margin: 100px auto;
+  background-color: #333; /* Updated background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #ecf0f1; /* Light text color */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #bdc3c7; /* Light text color */
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #bdc3c7; /* Light border color */
+  border-radius: 5px;
+  background-color: #444; /* Updated background color */
+  color: #ecf0f1; /* Light text color */
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.login-link {
+  text-align: center;
+  color: #ecf0f1; /* Light text color */
+}
+
+.login-link p {
+  margin: 0;
+}
+
+.login-link a {
+  text-decoration: none;
+  color: #3498db; /* Blue link color */
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+
+  <div class="container">
+      <div class="ranking">
+          <button>Ranking</button>
+      </div>
+
+    <div class="login">
+      <button id="login" onclick="redirectToLogin()">Login</button>
+
+      <script>
+      // JavaScript-Funktion, um zur Login-Seite zu leiten
+      function redirectToLogin() {
+      // Ändere die window.location.href zur gewünschten Adresse
+      window.location.href = '/loginform';  // Hier die gewünschte Adresse einsetzen
+      }
+      </script>
+    </div>
+ </div>
+
+ <div class="game-container">
+    <canvas id = "gameScreen"></canvas>
+    <canvas id="pingPongCanvas"></canvas>
+    <script src="https://cdn.socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="indexManipulation.js"></script>
+    <script src="index.js"></script>
+ </div>
+
+
+</body>
+</html>
